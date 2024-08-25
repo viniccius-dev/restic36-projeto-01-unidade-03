@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha 2 - FullStack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="overlay">
+        <div class="modal">
+            <img src="./assets/rayquaza.gif" id="modalBackground" alt="Rayquaza">
+
+            <div class="content">
+                <h3>Restic36</h3>
+                <h1>Trilha 2 - FullStack</h1>
+
+                <i id="btnTheme" class="fa-solid fa-moon"></i>
+
+                <div class="section-one">
+                    <div id="buttons">
+                        <div id="bgSelect" class="select"></div>
+                        <button id="btnLogin" class="active">Entrar</button>
+                        <button id="btnRegister" >Cadastro</button>
+                    </div>
+    
+                    <div id="fieldset">
+                        <form id="formLogin">
+                            <input id="email" type="email" placeholder="exemplo@gmail.com" required>
+                            <input id="password" type="password" placeholder="Senha" required minlength="4">
+        
+                            <a href="#" id="btnForgotPassword">Esqueci a senha</a>
+        
+                            <input type="submit" value="Enviar" id="btnSubmit">
+                        </form>
+        
+                        <form id="formRegister">
+                            <input type="text" placeholder="Nome">
+                            <input type="email" placeholder="E-mail">
+                            <input type="password" placeholder="Senha">
+                            <input type="password" placeholder="Confirme a senha">
+        
+                            <input type="submit" value="Cadastrar">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="section-two hidden">
+                    <form id="forgotPassword">
+                        <input type="text" placeholder="Informe seu e-mail">
+                        <span>Será enviado um token de acesso para o seu e-mail</span>
+        
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="transition.js"></script>
+</body>
+</html>
