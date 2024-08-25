@@ -24,8 +24,6 @@ Para executar a aplicação, siga os passos abaixo:
 
 4. Abra o arquivo index.html no seu navegador de preferência. Não é necessário instalar qualquer dependência adicional, já que o projeto é inteiramente baseado em HTML, CSS e TypeScript.
 
-## Instruções de Como Executar a Aplicação
-
 ## Tecnologias Utilizadas
 
 - **HTML5**: Usado para estruturar a aplicação.
